@@ -170,6 +170,7 @@ const rehypeMermaid: Plugin<[RehypeMermaidOptions?], Root> = (options) => {
 
     // Nothing to do. No need to start a browser in this case.
     if (!instances.length) {
+      console.log("No instances to render")
       return
     }
 
